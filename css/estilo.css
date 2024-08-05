@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #CDD6D0;
+}
+
+
+/*navegação*/
+.navegacao  {
+    margin: 15px auto;
+    transform: 1s;
+}
+.navegacao a {
+    color: #212529;
+}
+.navegacao a:hover{
+    background-color: #E16036;
+    color: #fff;
+}
+
+/*fim navegação*/
+.tabela {
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.controle button{
+    display: flex;
+    margin: 50px auto;
+}
+.controle i{
+    padding: 5px 0px;
+    font-size: 30px;
+    
+}
+.modal-footer {
+
+    margin-top: 20px;
+}
+.modal-body {
+}
+.btn {
+
+}
+.btn:hover{
+    
+}
+.btn:active {
+
+}
+.iconealerta{
+
+    font-size: 150%;
+
+}
+.btn-dark-buscar, .btn-dark-buscar:hover{
+
+    color: #fff;
+    background-color: #E16036;
+    border-color: #E16036;
+    border-radius: 200px;
+}
+.btn-dark-ad, .btn-dark-ad:hover{
+
+  color: #fff;
+  background-color: #E16036;
+  border-color: #E16036;
+  border-radius: 200px;
+  
+}
+.despesas{
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #e16036;
+}
+/* Calendário */
+
+.calendar {
+    position: relative;
+    width: 300px;
+    background-color: #E16036;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .calendar__picture {
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  .calendar__picture::before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  .calendar__picture h2 {
+    margin: 0;
+  }
+  .calendar__picture h3 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .calendar__date {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+  }
+  .calendar__day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .calendar__day:nth-child(7) {
+    color: #d43220;
+  }
+  .calendar__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #ffffff;
+  }
+  .calendar__number:nth-child(7n) {
+    color: #d43220;
+    font-weight: 700;
+  }
+  .calendar__number--current, .calendar__number:hover {
+    background-color: #d43220;
+    color: #fff !important;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .pet-classe {
+
+    background-color: #EB529F;
+    color: #fff;
+  }
+  .saude-classe {
+    background-color: #64C466;
+    color: #fff;
+  }
+  .lazer-classe {
+
+    background-color: #EA4D3D;
+    color: #fff;
+  }
+  .educacao-classe{
+
+    background-color: #5AC4F6;
+    color: #fff;
+  }
+  .alimentacao-classe {
+
+    background-color: #EF8C00;
+    color: #ffffff;
+  }
+  table {
+
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+  }
+  table td {
+    border: none;
+
+
+
+  }
+  table tr {
+    vertical-align: middle;
+    margin-top: 10px;
+    border: 0px;
+    clip-path: xywh(0 0 100% 100% round 1em);
+  }
